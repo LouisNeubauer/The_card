@@ -11,6 +11,13 @@
   <img alt="Le Wagon" src="https://img.shields.io/badge/Le%20Wagon-final%20project-FF0000?style=flat-square">
 </p>
 
+<p align="center">
+  <img alt="Commits" src="https://img.shields.io/badge/266-commits-0B1220?style=flat-square">
+  <img alt="Pull requests" src="https://img.shields.io/badge/121-merged%20pull%20requests-6366F1?style=flat-square">
+  <img alt="Team" src="https://img.shields.io/badge/5-developers-38BDF8?style=flat-square">
+  <img alt="Duration" src="https://img.shields.io/badge/23-days-F59E0B?style=flat-square">
+</p>
+
 <p align="center"><sub>🎓 Le Wagon full-stack bootcamp · 2021 · Weeks 8–9 · Final project</sub></p>
 
 ---
@@ -60,13 +67,37 @@ get 'stashed', to: 'orders#stashed'
 
 Nested routes that read like the domain: a menu item belongs to a restaurant, a line item belongs to an order.
 
+## How it was built
+
+**A team of five, 266 commits, 121 merged pull requests, 23 days.**
+
+| | |
+|---|---|
+| 📅 **23 Aug – 14 Sep 2021** | The full final-project sprint, start to demo |
+| 🔀 **121 merged pull requests** | Nothing went to the main branch directly — every change was branched, opened and reviewed |
+| 👥 **5 contributors** | Louis Neubauer · Janus Vollmer · Max Eduard von Wedemeyer · Marcel Fonseca · Oscar Sodian |
+| ✍️ **75 commits from me** | The largest single share, across the schema, orders and the ordering flow |
+
+That pull-request count is the part worth noticing. Five people nine weeks into
+learning to code could have taken turns pushing to `main` and spent the last
+three days untangling it. Branching every change and reviewing it was slower on
+day one and the reason the thing worked on day twenty-three.
+
 ## Why it still matters
 
-This was the first time everything had to work at once — authentication, a non-trivial schema, nested resources, asynchronous updates, an external library, and a design meant for a thumb rather than a mouse. Nine weeks earlier the same author was centring a `<div>`.
+This was the first time everything had to work at once — authentication, a
+non-trivial schema, nested resources, asynchronous updates, an external library,
+a design meant for a thumb rather than a mouse, and four other people changing
+the same files.
 
-It was also written in **2021, by hand.** No assistant, no autocomplete worth the name. Every bug was read, traced and fixed by someone who had to understand it first.
+It was also written in **2021, by hand.** No assistant, no autocomplete worth the
+name. Every bug was read, traced and fixed by someone who had to understand it
+first — and every merge conflict resolved by someone who had to understand both
+sides.
 
-**That is the whole reason it is kept.** The AI tooling I build with now is only as good as the review it gets — and you cannot review what you never learned to read.
+**That is the whole reason it is kept.** The AI tooling I build with now is only
+as good as the review it gets, and you cannot review what you never learned to
+read.
 
 ## Stack
 
@@ -75,6 +106,7 @@ It was also written in **2021, by hand.** No assistant, no autocomplete worth th
 ---
 
 <p align="center">
-  <sub>Final project of the 2021 Le Wagon full-stack bootcamp.<br>
+  <sub>Final project of the 2021 Le Wagon full-stack bootcamp — built with<br>
+  Janus Vollmer, Max Eduard von Wedemeyer, Marcel Fonseca and Oscar Sodian.<br>
   For what I build now, see <a href="https://github.com/LouisNeubauer">my profile</a>.</sub>
 </p>
